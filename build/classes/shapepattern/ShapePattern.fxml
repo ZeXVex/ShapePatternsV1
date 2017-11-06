@@ -8,15 +8,15 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="397.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shapepattern.ShapePatternController">
+<AnchorPane id="AnchorPane" prefHeight="397.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shapepattern.ShapePatternController">
     <children>
-        <Button fx:id="button" layoutX="648.0" layoutY="358.0" onAction="#handleButtonAction" text="Click Me!" />
-        <Label fx:id="label" layoutX="14.0" layoutY="209.0" minHeight="16" minWidth="69" text="Size" />
-      <TextField id="Size" fx:id="Size" layoutX="9.0" layoutY="233.0" />
-      <ListView id="Schape View" fx:id="shapeview" layoutX="170.0" layoutY="7.0" prefHeight="317.0" prefWidth="200.0" />
-      <Button layoutX="92.0" layoutY="269.0" mnemonicParsing="false" text="Add &gt;" />
-      <ComboBox layoutX="8.0" layoutY="14.0" prefWidth="150.0" />
-      <ComboBox layoutX="370.0" layoutY="333.0" prefWidth="150.0" />
-      <Canvas height="309.0" layoutX="378.0" layoutY="14.0" width="337.0" />
+        <Button fx:id="draw" layoutX="648.0" layoutY="358.0" onAction="#handleButtonAction" text="draw" />
+        <Label fx:id="labelSize" layoutX="14.0" layoutY="209.0" minHeight="16" minWidth="69" text="Size" />
+      <TextField id="Size" fx:id="size" layoutX="9.0" layoutY="233.0" />
+      <ListView id="Schape View" fx:id="listShapes" layoutX="170.0" layoutY="7.0" prefHeight="317.0" prefWidth="200.0" />
+      <Button fx:id="add" layoutX="108.0" layoutY="269.0" mnemonicParsing="false" text="Add &gt;" />
+      <ComboBox fx:id="dropdownShapes" layoutX="8.0" layoutY="14.0" prefWidth="150.0" />
+      <ComboBox fx:id="dropdownPattern" layoutX="370.0" layoutY="333.0" prefWidth="150.0" />
+      <Canvas fx:id="canvas" height="309.0" layoutX="378.0" layoutY="14.0" width="337.0" />
     </children>
 </AnchorPane>

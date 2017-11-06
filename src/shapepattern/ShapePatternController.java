@@ -10,7 +10,12 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
 
 /**
  *
@@ -19,8 +24,23 @@ import javafx.scene.control.Label;
 public class ShapePatternController implements Initializable
 {
     
-    @FXML
     private Label label;
+    @FXML
+    private Button draw;
+    @FXML
+    private Label labelSize;
+    @FXML
+    private TextField size;
+    @FXML
+    private ListView<?> listShapes;
+    @FXML
+    private Button add;
+    @FXML
+    private ComboBox<?> dropdownShapes;
+    @FXML
+    private ComboBox<?> dropdownPattern;
+    @FXML
+    private Canvas canvas;
     
     @FXML
     private void handleButtonAction(ActionEvent event)

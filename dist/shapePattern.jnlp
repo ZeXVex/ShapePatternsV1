@@ -9,7 +9,11 @@
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <jar href="shapePattern.jar" size="2776" download="eager" />
+=======
+    <jar href="shapePattern.jar" size="2764" download="eager" />
+>>>>>>> parent of e5d165e... Merge branch 'master' of https://github.com/ZeXVex/ShapePatternsV1
 =======
     <jar href="shapePattern.jar" size="2764" download="eager" />
 >>>>>>> parent of e5d165e... Merge branch 'master' of https://github.com/ZeXVex/ShapePatternsV1

@@ -11,6 +11,7 @@
 <AnchorPane id="AnchorPane" prefHeight="397.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shapepattern.ShapePatternController">
     <children>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Button fx:id="draw" layoutX="670.0" layoutY="358.0" onAction="#handleButtonAction" text="draw" />
         <Label fx:id="labelSize" layoutX="14.0" layoutY="209.0" minHeight="16" minWidth="69" text="Size" />
       <TextField id="Size" fx:id="size" layoutX="9.0" layoutY="233.0" />
@@ -20,6 +21,8 @@
       <ComboBox fx:id="dropdownPattern" layoutX="370.0" layoutY="333.0" prefWidth="150.0" />
       <Canvas fx:id="canvas" height="309.0" layoutX="378.0" layoutY="14.0" width="337.0" />
 =======
+=======
+>>>>>>> parent of e5d165e... Merge branch 'master' of https://github.com/ZeXVex/ShapePatternsV1
         <Button fx:id="button" layoutX="648.0" layoutY="358.0" onAction="#handleButtonAction" text="Click Me!" />
         <Label fx:id="label" layoutX="14.0" layoutY="209.0" minHeight="16" minWidth="69" text="Size" />
       <TextField id="Size" fx:id="Size" layoutX="9.0" layoutY="233.0" />
@@ -28,6 +31,9 @@
       <ComboBox layoutX="8.0" layoutY="14.0" prefWidth="150.0" />
       <ComboBox layoutX="370.0" layoutY="333.0" prefWidth="150.0" />
       <Canvas height="309.0" layoutX="378.0" layoutY="14.0" width="337.0" />
+<<<<<<< HEAD
+>>>>>>> parent of e5d165e... Merge branch 'master' of https://github.com/ZeXVex/ShapePatternsV1
+=======
 >>>>>>> parent of e5d165e... Merge branch 'master' of https://github.com/ZeXVex/ShapePatternsV1
     </children>
 </AnchorPane>
